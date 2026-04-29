@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# 데이터 (용량 큼)
+data/
+*.png
+*.jpg
+*.jpeg
+
+# 모델 가중치
+*.pt
+*.pth
+runs/
+weights/
+
+# 주피터 체크포인트
+.ipynb_checkpoints/
+__pycache__/
