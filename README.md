@@ -109,7 +109,7 @@ model.train(data='yolo_data/data.yaml', epochs=100, imgsz=1024)
 
 ## 📄 제출물
 
-- 📑 **[보고서 PDF 다운로드](./Health_Eat_프로젝트_보고서.pdf)**
+- 📑 **[보고서 PDF 다운로드](./docs/Health_Eat_프로젝트_보고서_최종.pdf)**
 - 📝 **[업무일지](https://www.notion.so/348404be4d178027becdf1f89cb87b16)**
 
 ---
