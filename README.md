@@ -30,22 +30,26 @@
 ## 📁 디렉토리 구조
 
 ```
-pill_detection/
-├── data/
-│   ├── train_images/         # 232장
-│   ├── train_annotations/    # COCO JSON
-│   └── test_images/          # 842장
-├── yolo_data/
-│   ├── images/train|val/
-│   ├── labels/train|val/
-│   └── data.yaml
-├── runs/                     # 모델별 학습 결과 (best.pt)
-├── outputs/                  # 예측 CSV
-└── notebooks/
-    ├── 01_EDA.ipynb
-    ├── 02_preprocessing.ipynb
-    ├── 03_train_yolo.ipynb
-    └── 04_ensemble_submit.ipynb
+medicine-object-detection-project/
+├── docs/
+│   └── Health_Eat_프로젝트_보고서_최종.pdf   # 최종 보고서
+├── EDA/
+│   ├── EDA_분석_보고서.md                    # EDA 분석 보고서
+│   └── EDA_분석_보고서.pdf
+├── models/                                   # .gitkeep (모델 가중치는 Google Drive 보관)
+├── notebooks/
+│   ├── day1_setup_eda.ipynb
+│   ├── eda_preprocessing.ipynb
+│   ├── day2_train_yolo_ensemble.ipynb
+│   ├── day2_rtdetr_experiment.ipynb
+│   ├── day2_faster_rcnn_experiment.ipynb
+│   ├── day3_wbf_hyperparameter_tuning.ipynb
+│   ├── day4_new_models_ensemble_experiments.ipynb
+│   └── day5_softnms_new_models_final_ensemble.ipynb
+├── src/                                      # .gitkeep
+├── .gitignore
+├── README.md
+└── requirements.txt
 ```
 
 ---
